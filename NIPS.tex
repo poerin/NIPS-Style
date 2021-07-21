@@ -1,0 +1,104 @@
+\documentclass{article}
+
+\usepackage{NIPS}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage[AutoFakeBold=true, AutoFakeSlant=true]{xeCJK}
+
+\setCJKmainfont{SimSun}
+\bibliographystyle{unsrt}
+
+\title{NIPS Style}
+
+\author{
+  Author\thanks{information about author.} \\
+  Affiliation \\
+  Address \\
+  \texttt{email} \\
+%  \And
+%  Coauthor \\
+%  Affiliation \\
+%  Address \\
+%  \texttt{email} \\
+%  \AND
+%  Coauthor \\
+%  Affiliation \\
+%  Address \\
+%  \texttt{email} \\
+%  \And
+%  Coauthor \\
+%  Affiliation \\
+%  Address \\
+%  \texttt{email} \\
+%  \And
+%  Coauthor \\
+%  Affiliation \\
+%  Address \\
+%  \texttt{email} \\
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+\section{Section}
+
+\subsection{Subsection}
+
+\subsubsection{Subsubsection}
+
+\paragraph{Paragraph}
+Footnote\footnote{Sample of footnote.}, figure \ref{sample-figure}, table \ref{sample-table}.
+
+\newpage
+
+\begin{figure}
+  \centering
+  \fbox{\rule[-.5cm]{0cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
+  \caption{Sample figure caption.}
+  \label{sample-figure}
+\end{figure}
+
+\begin{table}
+  \caption{Sample table title}
+  \label{sample-table}
+  \centering
+  \begin{tabular}{lll}
+    \toprule
+    \multicolumn{2}{c}{0} \\
+    \cmidrule(r){1-2}
+    1 & 2 & 3 \\
+    \midrule
+    4 & 5 & 6 \\
+    7 & 8 & 9 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{itemize}
+
+\item article \cite{Silver2016}
+
+\item book \cite{Goodfellow2016}
+
+\item conference \cite{Krizhevsky2012}
+
+\end{itemize}
+
+\subsubsection*{Acknowledgments}
+
+\medskip
+\small
+
+\bibliography{references}
+
+\end{document}

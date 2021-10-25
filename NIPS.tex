@@ -1,17 +1,24 @@
 \documentclass{article}
-
 \usepackage{NIPS}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\usepackage[AutoFakeBold=true, AutoFakeSlant=true]{xeCJK}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{unicode-math}
 \usepackage{hyperref}
 \usepackage{url}
 \usepackage{booktabs}
-\usepackage{amsfonts}
 \usepackage{nicefrac}
 \usepackage{microtype}
-\usepackage[AutoFakeBold=true, AutoFakeSlant=true]{xeCJK}
 
-\setCJKmainfont{SimSun}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Consolas}
+\setmathfont{XITS Math}
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans Mono CJK SC}
 \bibliographystyle{unsrt}
 
 \title{NIPS Style}
@@ -98,7 +105,6 @@ Footnote\footnote{Sample of footnote.}, figure \ref{sample-figure}, table \ref{s
 
 \medskip
 \small
-
 \bibliography{references}
 
 \end{document}

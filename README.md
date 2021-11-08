@@ -5,5 +5,5 @@ NIPS-Style is based on the [nips_2018.sty](https://media.nips.cc/Conferences/NIP
 fonts:
 - [Noto](https://github.com/googlefonts/noto-fonts)
 - [Noto CJK](https://github.com/googlefonts/noto-cjk)
-- [Cascadia Code](https://github.com/microsoft/cascadia-code)
+- [Fira Code](https://github.com/tonsky/FiraCode)
 - [XITS](https://www.ctan.org/pkg/xits)
